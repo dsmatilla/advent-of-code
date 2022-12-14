@@ -1,5 +1,5 @@
 <?php
-    $start=array("S", "a");
+    $start=array("S");
 
     $lines = explode("\n", trim(file_get_contents("input.txt")));
     foreach ($lines as $key => $line) {
